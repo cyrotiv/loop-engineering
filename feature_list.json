@@ -1,0 +1,92 @@
+[
+  {
+    "id": "F1",
+    "desc": "Opening: cover slide + Quick Shutter exhibit in numbers (shipped iOS app, 10 features, 30 mechanical assertions, 50 commits, 7.2 part-time days \u2014 verifiable facts only, no overnight claim per the ratified ruling).",
+    "status": "done",
+    "test": "Slides exist; every number matches a contract shape-3 fact pin."
+  },
+  {
+    "id": "F2",
+    "desc": "Why loops: prompt-dies vs loop-repeats (+ the loop shapes agents and prompts via traces); boring-simple vs orchestration frameworks + agile principles; the three SE mappings (state\u2192recovery, roles\u2192separation of concerns, contract\u2192test-first).",
+    "status": "done",
+    "test": "3 slides covering the human-pinned 1b points; terminology greps pass."
+  },
+  {
+    "id": "F3",
+    "desc": "Anatomy: state-layer folder anatomy (sharing_slides/ as live exhibit); three roles + model assignment; loop.sh/eval.sh verbatim; prompts as working agreements + human gates.",
+    "status": "done",
+    "test": "4 slides; loop.sh/eval.sh quoted exactly as on disk (diff-verified)."
+  },
+  {
+    "id": "F4",
+    "desc": "The contract: negotiation mechanics + the pre-code catches (S1 Jest/native, S5 Maestro assertEnabled, S20 absorbing-zero zoom) quoted from ../../contract.md negotiation rounds.",
+    "status": "done",
+    "test": "3 slides; quoted rounds exist in ../../contract.md (grep-verified)."
+  },
+  {
+    "id": "F5",
+    "desc": "War stories: OCR pivot (API-ran \u2260 signal-exists); iter-11b DONE-past-blocker; C7 simulator-denial amendment machinery.",
+    "status": "done",
+    "test": "3 slides; each story's cited evidence greppable in the repo."
+  },
+  {
+    "id": "F6",
+    "desc": "Honest cost slide: ~269M tokens, ~1,042 LOC (contract-pinned 1,034), 13 generator iterations with failure modes, environment incidents; waste vs point.",
+    "status": "done",
+    "test": "1 slide; all stats match contract shape-3 pinned values."
+  },
+  {
+    "id": "F7",
+    "desc": "When loops fail spectacularly: brownfield systems with complex dependency topology; perf measurement/tuning needs graph-based reasoning; greenfield contrast. Plus maintenance-mode outer-loops slide (CI watcher, flaky-test patcher, digest; QS Phase-5 design; human-directed 2026-09-17).",
+    "status": "done",
+    "test": "3 slides; framing matches the human-pinned wording in outline.md; 'Outer loops' kicker present."
+  },
+  {
+    "id": "F8",
+    "desc": "Meta reveal (deck is loop-produced; contract + traces in sharing_slides/) + takeaway restated + start-with-one-loop close.",
+    "status": "done",
+    "test": "2 slides; meta claims verifiable against sharing_slides/ state files."
+  },
+  {
+    "id": "F9",
+    "desc": "Human feedback revision batch 2026-09-17 (progress.md has the full R-list): cover kicker reword + pills removed; exhibit slide gains the two rescued D1 screenshots (slides/assets/qs-*.png \u2014 moved from public/, see progress iter 10); scripts slide annotates when/who runs loop.sh vs eval.sh; agreements slide gains short verbatim quotes; slide-4 restructure (engine line moves to WHAT IT IS + framework card expanded); slide-17 quick-test reworded; slide-18 new title + mermaid call-graph diagram; NEW recap slide before the closer (generalizable points only); final slide gains the public agent-loops link; package.json gains a preview script.",
+    "status": "done",
+    "test": "Full 25-assertion battery green incl. amended B1 [15,22] + B3 (no pill pin); A4 covers the two new images; D1 re-score of every touched slide.",
+    "note": "2026-09-17 iter 10: all R0-R9 applied; full battery green (22 slides, amended B1/B3, A4 images, mermaid on 18); planner re-scored all touched slides \u2014 D1 22/22 >= 0.72."
+  },
+  {
+    "id": "F10",
+    "desc": "Human feedback batch #2 (2026-09-17): slide 6 folder tree \u2192 the ACTUAL quick_shutter repo root (run `ls ../` and annotate the loop files; small caption: this deck's own sharing_slides/ has the same shape \u2014 reveal comes last); slide 18 speaker note gains the latency-test pushback + answer; slide 20 gains a 'this deck, in numbers' stat block + the regulatory-forward note; slide 4 speaker note gains the exit-code explainer.",
+    "status": "done",
+    "test": "Full battery green (still 22 slides \u2014 no count change); B9 stays green via slide 20 + the caption; slide-20 overflow playwright-measured like iter 9/10.",
+    "note": "2026-09-17 iter 11: F10 verified \u2014 QS-root tree on slide 6, stat block + regulatory note on slide 20, notes on 4/18; battery green, overflow clean, D1 re-scored (slides 6/20)."
+  },
+  {
+    "id": "F11",
+    "desc": "Recap slide wording: steal \u2192 take-away (labels STEAL N \u2192 TAKE-AWAY N; title \u2192 five take-aways). Human directive 2026-09-17.",
+    "status": "done",
+    "test": "Battery green; B6 cap holds on slide 21; no pin touched.",
+    "note": "2026-09-17 iter 13: voice pass applied (8 tweaks verbatim); battery + overflow green; pins verified intact; deployed to GitHub Pages (gh-pages) same day."
+  },
+  {
+    "id": "F12",
+    "desc": "Voice pass (human-approved 2026-09-17): apply research/voice-pass-proposals.md exactly \u2014 8 tweaks (slides 2,3,4,7,11,12,13,15), 12 keeps. Keep every pinned string intact single-line; keep B6 caps; playwright overflow check; re-export PNG+PDF.",
+    "status": "done",
+    "test": "Full battery green; pins unchanged; overflow clean.",
+    "note": "2026-09-17 iter 13: all 8 tweaks verbatim, 12 keeps untouched; matching Say-lines updated on 2/4. Slide 13 hit 115 words > 110 cap after the two definitions \u2014 trimmed 'upside-down pixels included' + 'on the simulator' (both preserved verbatim in that slide's note) \u2192 109. Slide 2: caption max-width 30em (2 lines) + exhibit images 192\u2192176px to stay exactly 552/552 (single-line caption had zero headroom). Battery + fresh-load overflow 22/22 green; PNGs + PDF re-exported. Planner/K3: re-score slides 2,3,4,7,11,12,13,15."
+  },
+  {
+    "id": "F13",
+    "desc": "Human batch #3 (2026-09-18): two appendix slides with verbatim doc snippets (SPEC raw idea + PLAN guiding rules / contract status + one assertion + generator-prompt goal-driven line); slide-3 speaker note gains the token nuance; slide-22 first-loop examples \u2192 consulting-flavored (nightly RAG ingestion of new client docs; watcher keeping an MCP server's contract tests green).",
+    "status": "done",
+    "test": "Battery green; amended B1 [15,24] + B2 (10 labels incl. Appendix); snippets verbatim from the real files; overflow measured.",
+    "note": "2026-09-18 iter 14: appendix slides 23 (SPEC lines 1-2 + 4 of 10 PLAN rules, each snippet line a verbatim single-line substring of its source) + 24 (contract Status line + assertion A1 + generator-prompt goal-driven clause, all full source lines verbatim); deck 22\u219224 = amended B1 ceiling; battery green (B6: 105/84 new slides; C2 now 3 matches, all 30); overflow 24/24 exactly 552/552 + 980/980, fences 820\u2264820; PNGs + PDF re-exported. Planner/K3: D1 re-scores due for 22/23/24; entry count must reach 24."
+  },
+  {
+    "id": "F14",
+    "desc": "Slide 23 annotation fix: drop the wrong cross-reference (\"item 2 above became the OCR war story\" \u2014 item 2 is never-self-grade, unrelated). Replace with a true, simple line: \"4 of 10 rules, verbatim \u2014 the full list is in PLAN.md\". Human-flagged by planner review 2026-09-18.",
+    "status": "done",
+    "test": "Battery green; the wrong claim gone; overflow clean.",
+    "note": "2026-09-18 iter 15: annotation swapped exactly as pinned (single line); speaker note untouched \u2014 its SPEC item-2 sentence is correctly scoped to the SPEC card and factually true. Battery green (A1 1.30s, A2 24 PNGs, A3 PDF, A4 2/2, B1\u2013B11, C1\u2013C9, reserved-vocab scan pinned-only); slide 23 at 53 visible words, playwright 552/552 + 980/980, fence 820\u2264820. Planner/K3: slide-23 re-score due (D1)."
+  }
+]
